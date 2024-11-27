@@ -1,8 +1,10 @@
-git練習
-ステージングエリア git add ＞ ローカルリポジトリ git commit > リモートリポジトリ git push
+Add：ローカルレポジトリのインデックス（変更内容の一時的な保存場所）に追加
+Commit：ローカルレポジトリに登録
+Push：上記をGithubのリモートリポジトリに送信＆公開
 
-
+■新規
 1.Githubにリポジトリ作成（リモートリポジトリ）
+
 2.ローカルにリポジトリ作成（ローカルリポジトリ）
 　デスクトップにフォルダを作成して保存したいファイルを置く
 　cd ~\desktop\git：ディレクトリに移動
@@ -19,7 +21,15 @@ git練習
 　git branch -M main
 　git push -u origin main
 
+■変更
+1.変更をインデックスに追加
+　git add .
 
+2.登録
+　git commit -m "Change"
+
+3.データの送信
+　git push -u origin main
 
 
 
