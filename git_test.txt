@@ -1,0 +1,28 @@
+git練習
+ステージングエリア git add ＞ ローカルリポジトリ git commit > リモートリポジトリ git push
+
+git --version：バージョン確認
+
+cd ~\desktop\git
+cd C:\Users\0108409762\Desktop\git
+
+ls
+git init：ローカルリポジトリを初期化
+ls -Force
+ls -Force .git/
+
+git add git.txt （git add .：全ファイル）
+git commit -m "Initial commit"：""内はコメント
+　コメント追加
+git hubでレポジトリ作成　
+
+https://github.com/takuya-seino-github/git_test.git
+git branch -M main
+git push -u origin main
+
+
+git status（ファイル状況確認）
+git commit -v（変更内容確認）
+git log（コミット履歴確認）
+
+Get-Content ~/.ssh/id_ed25519.pub | clip：公開鍵コピー
