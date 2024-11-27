@@ -1,6 +1,30 @@
 git練習
 ステージングエリア git add ＞ ローカルリポジトリ git commit > リモートリポジトリ git push
 
+
+1.Githubにリポジトリ作成（リモートリポジトリ）
+2.ローカルにリポジトリ作成（ローカルリポジトリ）
+　デスクトップにフォルダを作成して保存したいファイルを置く
+　cd ~\desktop\git：ディレクトリに移動
+　git init：リポジトリ作成
+
+3.ステージングエリアに追加
+　git add .
+
+4. 登録
+　git commit -m "Initial commit"：""内はコメント
+
+5. Githubにデータ送信（リモートリポジトリへプッシュ）
+　git remote add origin https://github.com/takuya-seino-github/test.git
+　git branch -M main
+　git push -u origin main
+
+
+
+
+
+------------------以下失敗---------------------
+
 git --version：バージョン確認
 
 cd ~\desktop\git
